@@ -1,0 +1,9 @@
+
+spring:
+  application:
+    name: stockbook-demo
+  data:
+    cassandra:
+      port: 9042
+      contact-points: 10.26.53.121
+      keyspace-name: stockbook_test
